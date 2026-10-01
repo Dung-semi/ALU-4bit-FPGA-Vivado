@@ -6,17 +6,9 @@
 
 ---
 
-## 📂 Complete Submission Checklist (Following Marking Scheme)
 
-* **A. Design (`./rtl/`):** 8 synthesizable Verilog modules with complete header comments (`SE190745`).
-* **B. Testbench (`./tb/alu_4bit_tb.v`):** Self-checking testbench printing Name & Roll Number (`SE190745`), testing **Part 1** (Combinational) + **Part 2** (Sequential Mul/Div & Divide-by-Zero), tracking `error_count = 0`, and ending with a `PASS` line.
-* **C. Truth / Step Table & E. Flow Explanation:** 📄 **[Click Here to View Full Technical Report & Answer Sheet (PDF)](./docs/ALU_4bit_Report_SE190745.pdf)**
-* **D. Flow Screenshots (`F1`–`F6`):** All 6 full-window screenshots with project name (`ALU_4bit_SE190745`) visible (displayed below).
-* **Complete ALU Zip File:** 📦 **[Download `ALU_4bit_SE190745.zip`](./ALU_4bit_SE190745.zip)**
 
----
-
-## C. Truth / Step Table (From Behavioral Simulation `F3` & `F4`)
+## Truth / Step Table (From Behavioral Simulation `F3` & `F4`)
 
 | Time (ns) | Opcode | Binary | Operation | `a` (Dec) | `b` (Dec) | `result[7:0]` (Hex) | C | Z | V | N | `error_count` | Notes |
 | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -46,19 +38,6 @@
 
 ---
 
-## D. Flow Screenshots (`F1` – `F6`, Full Window with Project Name Visible)
-
-### F1: RTL Hierarchy & Design Sources (`ALU_4bit_SE190745`)
-![F1](./docs/F1.png)
-
-### F2: Elaborated RTL Schematic & Linter (`ASSIGN-10#1`)
-![F2](./docs/F2.png)
-
-### F3: Behavioral Simulation Waveform (Part 1: Combinational & `error_count = 0`)
-![F3](./docs/F3.png)
-
-### F4: Behavioral Simulation Waveform (Part 2: Sequential Mul/Div & Divide-by-Zero)
-![F4](./docs/F4.png)
 
 ### F5: Post-Implementation Utilization Table (60 LUTs, 26 FFs) & Power Summary
 ![F5](./docs/F5.png)
