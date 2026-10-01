@@ -40,7 +40,4 @@
 
 
 ### F5: Post-Implementation Utilization Table (60 LUTs, 26 FFs) & Power Summary
-![F5](./docs/F5.png)
-
-### F6: Physical FPGA Device Floorplan (Clock Region `X0Y1`, Tile `CLBLM_R_X3Y63`)
-![F6](./docs/F6.png)
+![F5](
