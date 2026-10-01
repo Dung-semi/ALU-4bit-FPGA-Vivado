@@ -25,7 +25,6 @@
 | `245 - 305` | `9` | `1001` | **DIV** (`13 / 3`) | 13 | 3 | `14` (Rem=1, Quot=4) | 0 | 0 | 0 | 0 | `00000000` | `busy=1` (`255-295ns`), `done=1` at `295ns` |
 | `305 - 385` | `9` | `1001` | **DIV** (`8 / 0`) | 8 | 0 | Holds `14` | 0 | 0 | 0 | 0 | `00000000` | `div_by_zero=1`, `done=1` at `315ns` |
 
----
 
 ## Post-Implementation Resource Utilization (`xc7a100tcsg324-1`)
 
@@ -37,7 +36,3 @@
 | **BUFGCTRL** | 1 | 32 | 3.13% |
 
 ---
-
-
-### F5: Post-Implementation Utilization Table (60 LUTs, 26 FFs) & Power Summary
-![F5](
