@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Oct  2 09:24:18 2026
+# Process ID         : 10388
+# Current directory  : C:/Users/PC/ALU_4bit_SE190745/ALU_4bit_SE190745.runs/impl_1
+# Command line       : vivado.exe -log alu_4bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source alu_4bit.tcl -notrace
+# Log file           : C:/Users/PC/ALU_4bit_SE190745/ALU_4bit_SE190745.runs/impl_1/alu_4bit.vdi
+# Journal file       : C:/Users/PC/ALU_4bit_SE190745/ALU_4bit_SE190745.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-LPSLUFU
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12500H
+# CPU Frequency      : 3110 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16870 MB
+# Swap memory        : 10737 MB
+# Total Virtual      : 27607 MB
+# Available Virtual  : 6275 MB
+#-----------------------------------------------------------
+source alu_4bit.tcl -notrace

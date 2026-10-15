@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+================================================================
+ STUDENT NAME : LE KY DUNG
+ ROLL NUMBER  : SE190745
+ PROJECT      : 4-BIT ALU SELF-CHECKING TESTBENCH
+================================================================
+--- PART 1: COMBINATIONAL OPERATIONS (OPCODES 0 TO 7) ---
+[OK]   ADD (5 + 3) | a=5, b=3 | Result=08 | C=0 Z=0 V=1 N=1
+[OK]   SUB (9 - 4) | a=9, b=4 | Result=05 | C=1 Z=0 V=1 N=0
+[OK]   AND (12 & 10) | a=12, b=10 | Result=08 | C=0 Z=0 V=0 N=1
+[OK]   OR  (12 | 3) | a=12, b=3 | Result=0f | C=0 Z=0 V=0 N=1
+[OK]   XOR (12 ^ 10) | a=12, b=10 | Result=06 | C=0 Z=0 V=0 N=0
+[OK]   NOT (~10) | a=10, b=10 | Result=05 | C=0 Z=0 V=0 N=0
+[OK]   SHL (3 << 1) | a=3, b=10 | Result=06 | C=0 Z=0 V=0 N=0
+[OK]   SHR (12 >> 1) | a=12, b=10 | Result=06 | C=0 Z=0 V=0 N=0
+--- PART 2: SEQUENTIAL MUL/DIV OPERATIONS (OPCODES 8 TO 9) ---
+[OK]   MUL (7 * 6) | a=7, b=6 | Result=2a | C=0 Z=0 V=0 N=0
+[OK]   DIV (13 / 3) | a=13, b=3 | Result=14 | C=0 Z=0 V=0 N=0
+[OK]   DIV_BY_ZERO (8 / 0) | div_by_zero=1 | Output Held=14
+================================================================
+ PASS: ALL 11 TEST CASES VERIFIED SUCCESSFULLY (0 ERRORS)
+================================================================
+$finish called at time : 385 ns : File "C:/Users/PC/ALU_4bit_SE190745/ALU_4bit_SE190745.srcs/sim_1/new/alu_4bit_tb.v" Line 113
